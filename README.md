@@ -6,3 +6,5 @@ Xinshi Lin and Wai Lam. “Entity Retrieval via Type Taxonomy Aware Smoothing”
 # Usage
 
 # Tips
+
+# Contact
