@@ -14,7 +14,7 @@ NetworkX <= 1.11 (current networkx 2.0 is very slow in finding strongly connecte
 
 # Usage
 
-(put source codes and skos_categories_en.ttl into the same folder)
+(put source code files and skos_categories_en.ttl into the same folder)
 
 STEP 1: python create_skos_categories_profile.py
 
