@@ -76,8 +76,7 @@ def main():
            continue
         print ('processing scc  size=%d'%(len(scc)))
         
-        #if len(scc)<200:
-        if len(scc)<50:
+        if len(scc)<500:
            # find circuit system, decompose it into elementary cycles
            lec=list(networkx.simple_cycles(scc))
            print ('number of elementary circuits:%d'%(len(lec)))
@@ -108,18 +107,14 @@ def main():
            D.remove_edges_from(scc.edges())
            # find a heuristic way
            pass
-           
-    list_wscc=sorted(networkx.weakly_connected_component_subgraphs(D),key=len, reverse=True)
-    print (str(getDistSize(list_wscc)))
-    print (len(list_wscc))    
     
     print (str(networkx.is_directed_acyclic_graph(D)))
     print ('number of vertex:%d'%(len(D.nodes())))
     print ('number of edges:%d'%(len(D.edges())))
     print ('saving Digraph to disk')
     print ('begin reverse test')
-    #H=D.reverse()
-    #networkx.write_gpickle(D,'category_dag_dbpedia_top%d_debug.pkl.gz'%(NUMBER_TOP_K_PARENT))
+    H=D.reverse()
+    networkx.write_gpickle(D,'category_dag_dbpedia_top%d_debug.pkl.gz'%(NUMBER_TOP_K_PARENT))
         
 if __name__ == '__main__':
    main()
