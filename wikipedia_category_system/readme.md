@@ -1,10 +1,10 @@
 # Introduction
 
-INPUT: DBpedia Skos Categories dataset (skos_categories_en.ttl)
+Input: DBpedia Skos Categories dataset (skos_categories_en.ttl)
 
-INTERMEDIATE OUTPUT: A profile for each category that records category name, parent categories etc.
+Intermedia Output: A profile for each category that records category name, parent categories etc.
 
-FINAL OUTPUT: A directed acyclic graph representation of the Wikipedia Category System
+Final Output: A directed acyclic graph representation of the Wikipedia Category System
 
 # Requirement
 
