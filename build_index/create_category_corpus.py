@@ -111,7 +111,7 @@ def addDoc(w,data):
 def main():
     if len(sys.argv)<2:
        print ('error: too few arguments')
-       print ('command:  python create_corpus.py NUMBER_TOP_CATEGORY')
+       print ('command:  python create_category_corpus.py NUMBER_TOP_CATEGORY')
        quit()
     
     NUMBER_TOP_CATEGORY=int(sys.argv[1])
