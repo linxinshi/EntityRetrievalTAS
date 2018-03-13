@@ -18,7 +18,7 @@ execute command "python main.py"
 # comments
 1. The TAS approach is implemented in a backtracking way that greatly speed up the retrieval. (see function get_sas_prob() and mlmSas() in lib_metric.py) 
 
-2. From our own experimence, the TAS approach is more effective in helping retrieval models scroing against the single catchall field. Replacing the normalized weights (1-alpha)/(1-alpha^{k}) by a small weight between 0 and 1 may obtain more consistently stable performance
+2. From our own experience, the TAS approach is more effective in helping retrieval models scroing against the single catchall field. Replacing the normalized weights (1-alpha)/(1-alpha^{k}) by a small weight between 0 and 1 may obtain more consistently stable performance
 
 3. We believe this method is still "underresearched". Currently we are trying some varities that have more stable performance. Our design has a focus on structuralism. Welcome to join the disscusion.
 
