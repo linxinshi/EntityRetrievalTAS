@@ -1,6 +1,8 @@
 # usage
 python build_index.py
 
+python build_category_corpus.py
+
 for collecting DBpedia data used for indexer, please refer to https://github.com/linxinshi/DBpedia-Wikipedia-Toolkit
 
 # requirement
