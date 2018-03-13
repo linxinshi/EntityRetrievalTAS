@@ -1,7 +1,7 @@
 # usage
 python build_index.py
 
-for DBpedia data used for indexer, please refer to https://github.com/linxinshi/DBpedia-Wikipedia-Toolkit
+for collecting DBpedia data used for indexer, please refer to https://github.com/linxinshi/DBpedia-Wikipedia-Toolkit
 
 # requirement
 Python 3.4+
