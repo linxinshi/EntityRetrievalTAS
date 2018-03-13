@@ -137,7 +137,7 @@ def main():
     
     pkl_filename='category_dbpedia_corpus_top%d_fsdm3.pkl.gz'%(NUMBER_TOP_CATEGORY)
     if system_flag=='Windows':
-       lucene_dbpedia_fsdm=Lucene_Object('E:\\mmapDirectory\\dbpedia_v2_FSDM3','BM25',True)
+       lucene_dbpedia_fsdm=Lucene_Object('mmapDirectory\\dbpedia_v2_FSDM3','BM25',True)
     else:
        lucene_dbpedia_fsdm=Lucene_Object('%s/mmapDirectory/dbpedia_v2_FSDM3'%(cwd),'BM25',True)
     
@@ -186,7 +186,7 @@ def main():
     # begin write the data into index
     print ('begin write into index')
     if system_flag=='Windows':
-       LUCENE_INDEX_DIR='E:\\mmapDirectory\\category_corpus_dbpedia201510_top'+str(NUMBER_TOP_CATEGORY)+'_fsdm3'
+       LUCENE_INDEX_DIR='mmapDirectory\\category_corpus_dbpedia201510_top'+str(NUMBER_TOP_CATEGORY)+'_fsdm3'
     else:
        LUCENE_INDEX_DIR='%s/mmapDirectory/category_corpus_dbpedia201510_top'%(cwd)+str(NUMBER_TOP_CATEGORY)+'_fsdm3'
     
@@ -200,7 +200,6 @@ def main():
     # configure search engine
     analyzer = StandardAnalyzer()
     config = IndexWriterConfig(analyzer)
-    #config=config.setRAMBufferSizeMB(2048.0)  # experimental setting !!
     
     # write data to index
     w = IndexWriter(index_mm,config)
