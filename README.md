@@ -25,7 +25,7 @@ NetworkX <= 1.11
 
 PyLucene 6.x 
 
-(if you have diffculty in install PyLucene under Windows, please refer to http://lxsay.com/archives/365)
+(if you have diffculty in installing PyLucene on Windows, please refer to http://lxsay.com/archives/365)
 
 # comments
 1. The TAS approach is implemented in a backtracking way to speed up the retrieval. (see function get_sas_prob() and mlmSas() in lib_metric.py) 
