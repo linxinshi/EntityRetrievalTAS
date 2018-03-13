@@ -32,7 +32,7 @@ PyLucene 6.x
 
 2. From our own experience, the TAS approach is more effective in helping retrieval models scroing against the single catchall field. Replacing the normalized weights (1-alpha)/(1-alpha^{k}) by a small weight between 0 and 1 may obtain more consistently stable performance
 
-3. Currently we are trying some varities that have more stable performance. Our design has a focus on structuralism. Welcome to join the disscusion.
+3. Our design has a focus on structuralism. Currently we are trying some varities that have more stable performance. Welcome to join the disscusion.
 
 # contact
 Xinshi Lin (xslin@se.cuhk.edu.hk)
