@@ -16,7 +16,7 @@ Xinshi Lin and Wai Lam. “Entity Retrieval via Type Taxonomy Aware Smoothing”
 
 5. check results in folder Retrieval_results (created by program and name it after the time executed)
 
-## requirement
+## requirements
 Python 3.4+
 
 NLTK, Gensim
@@ -38,4 +38,4 @@ PyLucene 6.x
 Xinshi Lin (xslin@se.cuhk.edu.hk)
 
 ## license
-MIT License
+Creative Commons
