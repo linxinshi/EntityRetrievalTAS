@@ -1,4 +1,4 @@
-# Introduction
+## Introduction
 
 Input: DBpedia Skos Categories dataset (skos_categories_en.ttl)
 
@@ -6,13 +6,13 @@ Intermedia Output: A collection of profile that records category name, parent ca
 
 Final Output: A directed acyclic graph representation of the Wikipedia Category System
 
-# Requirement
+## Requirement
 
 Python 2.7.x or Python 3.4+
 
 NetworkX <= 1.11 (current networkx 2.0 is very slow in finding strongly connected components, probably due to incomplete development)
 
-# Usage
+## Usage
 
 (put source code files and skos_categories_en.ttl into the same folder)
 
