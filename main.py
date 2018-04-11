@@ -38,11 +38,10 @@ def add2Report(title,line,structure):
        entityReport[title]=[line+'\n']
        
 def read_query(queries,conf_paras):
-    src = open(conf_paras.QUERY_FILEPATH,'r')
+    src = open(conf_paras.QUERY_FILEPATH,'r',encoding='utf-8')
     for line in src.readlines():
         list = line.strip().split('\t')
-        #queries.append((list[0],list[1],list[2],list[3])) # raw_ID,querystr(for w2v mark ngram),raw merge query, original query
-        queries.append((list[0],list[1],list[2])) # query_id, clusterd query, raw query
+        queries.append((list[0],list[1])) # query_id, , raw query
 
 def computeScore(queryObj,entityObj,structure,lucene_handler,conf_paras):
     mongoObj,w2vmodel,entityScore=structure.mongoObj,structure.w2vmodel,structure.entityScore
