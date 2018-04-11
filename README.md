@@ -6,9 +6,9 @@ This repository contains resources developed within the following paper:
 Xinshi Lin and Wai Lam. “Entity Retrieval via Type Taxonomy Aware Smoothing”, ECIR 2018
 
 ## usage
-1. build index (see folder "build_index")
+1. build graph representation of the Wikipedia Category System (see folder "wikipedia_category_system")
 
-2. build graph representation of the Wikipedia Category System (see folder "wikipedia_category_system")
+2. build index (see folder "build_index")
 
 3. edit config.py and config_object.py to specify parameters for retrieval models and index path etc.
 
