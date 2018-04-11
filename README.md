@@ -16,6 +16,8 @@ Xinshi Lin and Wai Lam. “Entity Retrieval via Type Taxonomy Aware Smoothing”
 
 5. check results in folder Retrieval_results (created by program and name it after the time executed)
 
+*this implementation supports multi-processing, specify NUM_PROCESS in config.py
+
 ## requirements
 Python 3.4+
 
