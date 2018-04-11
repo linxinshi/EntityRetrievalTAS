@@ -39,13 +39,13 @@ PyLucene 6.x
 4. Currently we are trying some varities that have better performance. 
 
 ## relevant projects
-FSDM:https://github.com/teanalab/FieldedSDM
+FSDM:  https://github.com/teanalab/FieldedSDM
 
-PFSDM:https://github.com/teanalab/pfsdm
+PFSDM:  https://github.com/teanalab/pfsdm
 
-FSDM+ELR:https://github.com/hasibi/EntityLinkingRetrieval-ELR
+FSDM+ELR:  https://github.com/hasibi/EntityLinkingRetrieval-ELR
 
-DBpedia-Entity Test Collection: https://iai-group.github.io/DBpedia-Entity/
+DBpedia-Entity Test Collection:  https://iai-group.github.io/DBpedia-Entity/
 
 ## contact
 Xinshi Lin (xslin@se.cuhk.edu.hk)
