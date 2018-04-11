@@ -34,9 +34,15 @@ PyLucene 6.x
 
 2. From our own experience, the TAS approach is more effective in helping retrieval models scroing against the single catchall field. Replacing the normalizing weights (1-alpha)/(1-alpha^{k}) by a small weight between 0 and 1 (e.g. 1/300) may obtain more consistently stable performance on verbose queries such as natural language questions.
 
-3. The quality of index will greatly affect the performance. After this the parameter alpha and the normalizing weight may affect the performance a bit (-/+ 5%).
+3. The quality of index will greatly affect the performance. After this the parameter alpha and the normalizing weight may affect the performance a bit (-/+ 5%). 
 
-4. Currently we are trying some varities that have better performance. 
+4. If you want to exactly reproduce the results brought by TAS reported in the paper, the following tricks might be helpful: 
+
+    1. only TAS for entites that has positive term frequencies given a query term (for keyword-based queries this strategy works well). 
+    
+    2. for entites that have no categories, use the original version of the model (i.e. no TAS) to score them
+
+5. Currently we are trying some varities that have better performance. 
 
 ## relevant projects
 FSDM:  https://github.com/teanalab/FieldedSDM
