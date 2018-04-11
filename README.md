@@ -40,7 +40,7 @@ PyLucene 6.x
 
     1. only TAS for entites that has positive term frequencies given a query term (for keyword-based queries this strategy works well). 
     
-    2. for entites that have no categories, use the original version of the model (i.e. no TAS) to score them
+    2. for entites that have no categories, use the original version of the model (i.e. no TAS) to score them.
 
 5. Currently we are trying some varities that have better performance. 
 
