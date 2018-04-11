@@ -38,8 +38,11 @@ PyLucene 6.x
 
 ## relevant projects
 FSDM:https://github.com/teanalab/FieldedSDM
+
 PFSDM:https://github.com/teanalab/pfsdm
+
 FSDM+ELR:https://github.com/hasibi/EntityLinkingRetrieval-ELR
+
 DBpedia-Entity Test Collection: https://iai-group.github.io/DBpedia-Entity/
 
 ## contact
