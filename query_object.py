@@ -1,7 +1,7 @@
 # coding=utf-8
 import sys
 import string
-from lib_process import cleanSentence, remove_stopwords, convStr2Vec,stemSentence
+from lib_process import cleanSentence, remove_stopwords, stemSentence
 from list_term_object import List_Term_Object
 from config import *
 from document_object import Document_Object
@@ -17,9 +17,8 @@ class Query_Object(Document_Object):
           self.dict_attr={}
           # query: query_id, clusterd query, raw query
           self.setAttr('id',query[0].strip())
-          self.setAttr('clustered_query',query[1].strip().lower())
           if IS_STOPWORD_REMOVED:
-             qstr=remove_stopwords(cleanSentence(query[2].strip(),True,' '),' ')
+             qstr=remove_stopwords(cleanSentence(query[1].strip(),True,' '),' ')
           self.setAttr('raw_query',qstr)
              
           self.setAttr('stemmed_raw_query',stemSentence(self.raw_query,None,True))
