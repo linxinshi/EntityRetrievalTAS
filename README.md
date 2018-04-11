@@ -30,7 +30,7 @@ PyLucene 6.x
 (if you have PyLucene install issues on Windows, please refer to http://lxsay.com/archives/365)
 
 ## comments
-1. The TAS approach is implemented in a backtracking way to speed up the retrieval. (see function get_sas_prob() and mlmSas() in lib_metric.py) 
+1. The TAS approach is implemented in a backtracking way to speed up the retrieval. (see function lm_sas() and mlmSas() in lib_metric.py) 
 
 2. From our own experience, the TAS approach is more effective in helping retrieval models scroing against the single catchall field. Replacing the normalizing weights (1-alpha)/(1-alpha^{k}) by a small weight between 0 and 1 (e.g. 1/300) may obtain more consistently stable performance on verbose queries such as natural language questions.
 
