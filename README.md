@@ -42,7 +42,7 @@ PyLucene 6.x
     
     2. for entites that have no categories, use the original version of the model (i.e. no TAS) to score them. (already implemented)
     
-Results reported in the paper relies little on these tricks.
+    Results reported in the paper relies little on these tricks.
 
 5. Currently we are trying some varities that have better performance. 
 
