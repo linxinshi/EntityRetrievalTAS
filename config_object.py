@@ -13,7 +13,7 @@ class Config_Object(object):
           self.LUCENE_INDEX_WIKI_DIR=os.path.join('mmapDirectory','index_wikipedia_2015')
           self.LUCENE_INDEX_CATEGORY_CORPUS=os.path.join('mmapDirectory','category_corpus_dbpedia201510_top5_fsdm3')
 
-          self.QUERY_FILEPATH=os.path.join('query','simple_cluster','INEX_LD_v2.txt')
-          self.PATH_GROUNDTRUTH=os.path.join('qrels-v2.txt')
+          self.QUERY_FILEPATH='INEX_LD_v2.txt'
+          self.PATH_GROUNDTRUTH='qrels-v2.txt'
           self.PATH_CATEGORY_DAG='category_dag_dbpedia_top10.pkl.gz'
           
