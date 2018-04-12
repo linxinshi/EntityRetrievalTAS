@@ -36,11 +36,13 @@ PyLucene 6.x
 
 3. The quality of index will greatly affect the performance. After this the parameter alpha and the normalizing weight may affect the performance a bit (-/+ 10%). 
 
-4. If you want to improve its practical performance or reproduce the results brought by TAS reported in the paper, the following small tricks might be helpful: 
+4. If you want to improve its practical performance or reproduce the exact results brought by TAS reported in the paper, the following small tricks might be helpful: 
 
     1. only TAS for entites that has positive term frequencies given a query term. 
     
-    2. for entites that have no categories, use the original version of the model (i.e. no TAS) to score them.
+    2. for entites that have no categories, use the original version of the model (i.e. no TAS) to score them. (already implemented)
+    
+Results reported in the paper relies little on these tricks.
 
 5. Currently we are trying some varities that have better performance. 
 
