@@ -48,6 +48,8 @@ PyLucene 6.x
 
 5. Currently we are trying some varities that have better performance. 
 
+6. This framework works well with other type taxonomies (DBpedia ontology, YAGO etc.) too, it is not a "dataset specific" method.
+
 ## relevant projects
 FSDM:  https://github.com/teanalab/FieldedSDM
 
