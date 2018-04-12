@@ -6,11 +6,13 @@ This repository contains resources developed within the following paper:
 Xinshi Lin and Wai Lam. “Entity Retrieval via Type Taxonomy Aware Smoothing”, ECIR 2018
 
 ## usage
+0. collect data from DBpedia and store them into a MongoDB database (see https://github.com/linxinshi/DBpedia-Wikipedia-Toolkit)
+
 1. build graph representation of the Wikipedia Category System (see folder "wikipedia_category_system")
 
 2. build index (see folder "build_index")
 
-3. edit config.py and config_object.py to specify parameters for retrieval models and index path etc.
+3. edit config.py, config_object.py  and mongo_object.py to specify parameters for retrieval models and index path etc.
 
 4. execute command "python main.py"
 
