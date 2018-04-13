@@ -17,7 +17,7 @@ This repository contains resources developed within the following paper:
 
 5. check results in folder Retrieval_results (created by program and name it after the time executed)
 
-*this implementation supports multi-processing, specify NUM_PROCESS in config.py
+*this implementation supports multi-processing, specify NUM_PROCESS in config.py. The program will split the queries into several parts and each process will handle one part of them. Finally the program merges all results and output a complete one.
 
 ## requirements
 Python 3.4+
