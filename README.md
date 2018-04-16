@@ -17,7 +17,7 @@ This repository contains resources developed within the following paper:
 
 5. check results in folder Retrieval_results (created by program and name it after the time executed)
 
-*this implementation supports multi-processing, specify NUM_PROCESS in config.py. The program will split the queries into several parts and each process will handle one part of them. Finally the program merges all results and output a complete one.
+*this implementation supports multi-processing, specify NUM_PROCESS in config.py. The program will split the queries into several parts and each process will handle one of them. Finally the program merges all results and output a complete one.
 
 ## requirements
 Python 3.4+
@@ -46,8 +46,6 @@ PyLucene 6.x
     Results reported in the paper relies little on these tricks.
 
 5. Currently we are trying some varities that have better performance. 
-
-6. This framework works well with other type taxonomies (DBpedia ontology, YAGO etc.) too, it is not a "dataset specific" method.
 
 ## relevant projects
 FSDM:  https://github.com/teanalab/FieldedSDM
