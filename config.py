@@ -8,7 +8,7 @@ hitsPerPage = 1000
 NUM_PROCESS= 4
 
 NEGATIVE_INFINITY=-99999999
-MODEL_NAME='lm'   # lm,mlm-tc,mlm-all,sdm,fsdm
+MODEL_NAME='lm'   # lm,mlm-tc,mlm,sdm,fsdm
 
 DEBUG_MODE=False
 
