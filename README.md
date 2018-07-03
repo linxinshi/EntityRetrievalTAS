@@ -28,7 +28,7 @@ NetworkX <= 1.11
 
 PyLucene 6.x 
 
-(if you have PyLucene install issues on Windows, please refer to http://lxsay.com/archives/365)
+(This implementation works both on Linux and Windows. If you have PyLucene install issues on Windows, please refer to http://lxsay.com/archives/365)
 
 ## comments
 1. The TAS approach is implemented in a recursive and backtracking way to speed up. (see function lm_sas() and mlmSas() in lib_metric.py) 
