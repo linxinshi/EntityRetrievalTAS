@@ -9,6 +9,7 @@ import lucene
 from java.io import File
 from java.nio.file import Paths
 from org.apache.lucene.analysis.standard import StandardAnalyzer
+from org.apache.lucene.analysis.core import SimpleAnalyzer
 from org.apache.lucene.document import Document, Field, StringField, TextField, StoredField, IntPoint
 from org.apache.lucene.index import IndexWriter, IndexWriterConfig, DirectoryReader, Term
 from org.apache.lucene.store import MMapDirectory
@@ -198,7 +199,7 @@ def main():
     index_mm = MMapDirectory(Paths.get(LUCENE_INDEX_DIR))
     
     # configure search engine
-    analyzer = StandardAnalyzer()
+    analyzer = SimpleAnalyzer()
     config = IndexWriterConfig(analyzer)
     
     # write data to index
